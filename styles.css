@@ -1,0 +1,276 @@
+body {
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} 
+.header {
+    background: #778da9;
+    padding-bottom: 20px;
+}
+
+.F-header {
+    display: flex;
+    justify-content: space-between;
+}
+#main-logo {
+    width: 100px;
+    height: 70px
+}
+
+.rl {
+    display: flex;
+}
+
+.links {
+    margin-right: 60px;
+    font-size: 18px;
+    text-shadow: 0px 0px 1px black;
+
+}
+
+a {
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+
+.content {
+    margin: 0 auto;
+    padding: 10px 50px 20px 50px;
+    background: #fff;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.main-text {
+    border: 2px none #e0e1dd;
+    width: 600px;
+    height: 300px;
+}
+#discover-text {
+    font-size: 48px;
+    margin-bottom: 0;
+    margin-top: 10px;
+    color: #e0e1dd;
+    text-shadow: 0px 0px 1px black;
+}
+
+#secondary-text {
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #E5E7EB;
+    text-shadow: 0px 0px 1px black;
+
+    
+}
+
+button {
+    background-color: #0d1b2a;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 5px;
+    font-size: 15px;
+    
+
+}
+
+
+#right-image {
+    background-image: url(images/three-brides.gif);
+    background-size: cover;
+    border: 2px solid #e5e5e5;
+    border-radius: 5px;
+    width: 400px;
+    height: 400px;
+}
+
+.info-img {
+    width: 200px;
+    border: 2px solid #e5e5e5;
+    height: 300px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.content {
+    text-align: center;
+    color: #0d1b2a;
+    text-shadow: 0px 0px 1px #adb5bd;
+}
+
+#col {
+    font-size: 25px;
+    margin-bottom: 15px;
+    margin-top: 40px;
+    text-decoration: underline;
+}
+
+#new {
+    font-size: 25px;
+    margin-bottom: 15px;
+    margin-top: 40px;
+    text-decoration: underline;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.gif {
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+#first-gif {
+    background-image: url(images/new-bride.gif);
+    background-size: cover;
+    width: 200px;
+    border: 2px solid #e5e5e5;
+    height: 300px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+#sec-gif {
+    background-image: url(images/roll.gif);
+    background-size: cover;
+    width: 200px;
+    border: 2px solid #e5e5e5;
+    height: 300px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+#third-gif {
+    background-image: url(images/glit.gif);
+    background-size: cover;
+    width: 200px;
+    border: 2px solid #e5e5e5;
+    height: 300px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+#fourth-gif {
+    background-image: url(images/bridey.gif);
+    background-size: cover;
+    width: 200px;
+    border: 2px solid #e5e5e5;
+    height: 300px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.testimonial {
+    background: #E5E7EB;
+    margin: 0 auto;
+    padding: 40px 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+#test-text {
+    font-style: italic;
+    font-size: 20px;
+    color: #1F2937;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: light;
+}
+#name{
+    align-self: flex-end;
+    margin-top: 0;   
+
+}
+
+#test {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.action {
+    padding: 20px 100px;
+    margin: 0 auto;
+}
+
+.sign-up {
+    background: #3882F6;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0;
+    padding: 10px 60px;
+    width: 700px;
+    border-radius: 5px;
+    text-shadow: 0px 0px 1px black;
+
+}
+
+
+#bttn {
+    background: #3882F6;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 3px 10px;
+    color: #fff;
+    margin-top: 0px;
+    margin-left: 40px;
+    text-shadow: 0px 0px 1px black;
+    align-self: center;
+    text-align: center;
+
+}
+.click {
+    display: flex;
+}
+
+
+#call {
+    margin-bottom: 0px;
+}
+
+.text {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+
+.end-link {
+    color: #0d1b2a;
+    margin-right: 60px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#copy {
+    text-align: center;
+    color: #0d1b2a;
+    margin-top: 20px;
+    font-style: italic;
+}
