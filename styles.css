@@ -273,4 +273,7 @@ button {
     color: #0d1b2a;
     margin-top: 20px;
     font-style: italic;
+    background-color:#778da9;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
